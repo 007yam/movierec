@@ -12,9 +12,17 @@ import re
 import requests as HTTP 
 
 # Main Function for scraping 
-def main(emotion): 
+def main(emotion):
 
-	
+	# IMDb Url for Drama genre of 
+	# movie against emotion Sad 
+	if(emotion == "Sad"): 
+		urlhere = 'http://www.imdb.com/search/title?genres=drama&title_type=feature&sort=moviemeter, asc'
+
+	# IMDb Url for Musical genre of 
+	# movie against emotion Disgust 
+	elif(emotion == "Disgust"): 
+		urlhere = 'http://www.imdb.com/search/title?genres=musical&title_type=feature&sort=moviemeter, asc'
 
 	# IMDb Url for Family genre of 
 	# movie against emotion Anger 
