@@ -1,0 +1,5 @@
+Recommends movies based on emotions. Takes the type of "emotion" of the movie you want to watch as input and recommends you 
+movies based on that.
+ 
+Python has been used predominently. BeatifulSoup has been used for scraping purposes. IMDb is the site that has been scraped.
+Once scraped, not much work is left to do.
